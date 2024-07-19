@@ -1,0 +1,56 @@
+body, html {
+  margin-top: 0;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  height: 100vh;                    /* Taille du tableau*/
+  background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.button {
+  font-size: medium;
+  vertical-align: middle;
+}
+
+.content {
+  border: 1px solid #ccc;
+  margin-top: 0vh;
+  text-align: center;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.bold {
+  font-weight: bold;
+}
